@@ -10,8 +10,28 @@
         animation-name: slideInFromTop;
     }
 
+    .slide-in-from-bottom {
+        animation-name: slideInFromBottom;
+    }
+
     .duration-300 {
         animation-duration: 300ms;
+    }
+
+    .duration-700 {
+        animation-duration: 700ms;
+    }
+
+    .delay-100 {
+        animation-delay: 100ms;
+    }
+
+    .delay-300 {
+        animation-delay: 300ms;
+    }
+
+    .delay-400 {
+        animation-delay: 400ms;
     }
 }
 
@@ -20,6 +40,18 @@
     from {
         opacity: 0;
         transform: translateY(-3rem);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInFromBottom {
+    from {
+        opacity: 0;
+        transform: translateY(2rem);
     }
 
     to {
