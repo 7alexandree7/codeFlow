@@ -24,7 +24,7 @@ const HeroRightCodeSide = () => {
                     </div>
                     {/*IDE SUGGESTIONS app / hero / navbar*/}
                     <div className="p-3 sm:p-4 relative h-full">
-                        <div className="flex space-x-1 sm:space-x-2 mb-3 sm:mb-4 overflow-x-auto">
+                        <div className="flex space-x-1 sm:space-x-2 mb-3 sm:mb-4 overflow-hidden">
                             <button
                                 onClick={() => setActiveTab("App.tsx")}
                                 className={`px-3 py-2 backdrop-blur-sm text-xs sm:text-sm rounded-t-lg border

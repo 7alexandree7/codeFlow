@@ -1,3 +1,4 @@
+import Features from "./components/Features/Features"
 import Hero from "./components/Hero/Hero"
 import NavBar from "./components/NavBar/NavBar"
 
@@ -8,6 +9,7 @@ function App() {
     <div className="min-h-screen bg-slate-950 text-white overflow-hidden">
       <NavBar />
       <Hero />
+      <Features />
     </div>
   )
 }
