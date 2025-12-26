@@ -3,7 +3,7 @@ import { testimonialData } from "../../data/TestimonialData"
 
 const Testimonials = () => {
   return (
-    <section id="testimonials">
+    <section className="pb-12" id="testimonials">
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col lg:flex-row items-start gap-8 sm:gap-12 lg:gap-16">
 
