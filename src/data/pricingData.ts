@@ -1,4 +1,6 @@
-export const pricingData = [
+import type { PlanType } from "../@types/type"
+
+export const pricingData: PlanType[] = [
     {
         name: "Starter",
         price: "29.99",
