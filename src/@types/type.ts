@@ -5,3 +5,11 @@ export interface PlanType {
     features: string[]
     mostPopular: boolean
 }
+
+
+export interface TestimonialType {
+    name: string
+    role: string
+    image: string
+    content: string
+}
