@@ -20,13 +20,6 @@ export default function Footer() {
                 <div className="hidden sm:grid sm:grid-cols-3 lg:grid-cols-6 gap-6 sm:gap-8 lg:gap-12 mb-8 sm:mb-12">
                     <div className="col-span-1 sm:col-span-3 lg:col-span-2 text-center sm:text-left">
                         <div className="flex items-center justify-center sm:justify-start space-x-2 mb-3 sm:mb-4">
-                            <div className="rounded-lg">
-                                <img
-                                    src="../../logocodeflow.png"
-                                    alt="CodeFlow Logo"
-                                    className="w-6 h-6 sm:w-8 sm:h-8"
-                                />
-                            </div>
                             <span className="text-lg sm:text-xl font-bold">
                                 <span className="text-white">Code</span>
                                 <span className="text-blue-400">Flow</span>
