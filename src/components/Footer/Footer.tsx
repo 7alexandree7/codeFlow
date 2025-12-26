@@ -22,7 +22,7 @@ export default function Footer() {
                         <div className="flex items-center justify-center sm:justify-start space-x-2 mb-3 sm:mb-4">
                             <div className="rounded-lg">
                                 <img
-                                    src="../../public/logocodeflow.png"
+                                    src="../../logocodeflow.png"
                                     alt="CodeFlow Logo"
                                     className="w-6 h-6 sm:w-8 sm:h-8"
                                 />

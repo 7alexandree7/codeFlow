@@ -12,7 +12,7 @@ const NavBar = () => {
 
                     <div className="flex items-center  space-x-1 group cursor-pointer">
                         <img
-                            src="./logocodeflow.png"
+                            src="../../logocodeflow.png"
                             alt=""
                             className="w-6 h-6 sm:w-8 sm:h-8"
                         />
